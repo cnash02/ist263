@@ -1,0 +1,5 @@
+body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+grouped selectors h1,h2 {color: blue;}
+ .evenrow {background-color: gray;}
+ h1 {font: face 1em;}
+ h2 {font:face .5em}

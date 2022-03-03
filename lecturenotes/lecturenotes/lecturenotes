@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+</html>
+<title></title>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+background-color: blue;} 
+p {font-size:125%; /* font 25% larger than defualt*/
+font-weight: bold;}
+h1 {font-size: 1.1em;} /* this font 10% larger than default*/
+p,a {color: dark orange;} /*group selector to change more than one thing at a time */
+p a {color: red;} /* change a tag color inside of p tag*/
+.pinktext {color:pink;}
+</style> 
+<body> 
+<h1> Embedded style sheets</h1>
+<a href="http://www.google.com">Google</a>
+<p>lorem <a href="http://www.amazon.com"><Amazon</a> ipsum</p>
+<p class="pinktext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate odio nesciunt nam, vitae rem recusandae nulla culpa, quod officiis eius dolorem incidunt eaque suscipit quasi nihil laboriosam tempore officia veritatis.</p>
+</body>
