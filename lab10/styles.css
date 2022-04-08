@@ -7,10 +7,13 @@ a{ color: #0E3EDA;}
  nav {color: #FFDDEE;}
   nav a {color: #0E3EDA;} 
   nav a:hover {background-color: #e636a2;}
-nav padding: 10px;
-nav margin-bottom: 30px;
+nav {padding: 10px;}
+nav {margin-bottom: 30px;}
 
-@media only screen and (min-width:600px) 
+@media only screen and (max-width:600px) {
+nav a  {display:block; width: 100%;
+} 
+nav span{display:none; }
 } 
 .footer {float: right;}
 .set1 {display:flex}
