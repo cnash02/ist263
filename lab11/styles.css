@@ -17,10 +17,10 @@ nav span{display:none; }
 } 
 .footer {float: right;}
 .set1 {display:flex}
-.set1 {background-color: #cce5fc;border-radius: 1em ; padding: 20px;}
+.set1 {background-color: #274f74;border-radius: 1em ; padding: 20px;}
 .set2 {display: flex;}
 .set2 {flex-wrap: wrap;}
-.set2 {background-color: #cce5fc;border-radius: 1em; padding:20px}
+.set2 {background-color: #21486d;border-radius: 1em; padding:20px}
 .set1, .set2 {margin: 10px;}
  .set1, .set2 div {margin:5px}
  .heading {margin-left: 500px;}
