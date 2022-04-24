@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+
+        <title>project</title>
+<style>
+    @media only screen and (max-width:600px) {
+  nav a  {display:block; width: 100%;
+  } 
+  nav span{display:none; }
+  } 
+  body {font-family: cursive;
+    background-color: #f6f7f1;}
+    .roundedimage { display:flex;
+      display: flex;justify-content: center;}
+      h2 { color: rgb(68, 51, 82);justify-content: space-around;}
+      h1 {display: flex;justify-content: center;
+      color:rgb(68, 51, 82) ;}
+      img { border-radius: 50%;}
+      .bottom {display: flexbox; background-color: rgb(193, 173, 209);border-radius: 1em ; padding: 20px;color: #f6f7f1;justify-content:left;margin: 30%;text-align: center;}
+      .bottom2 {display: flexbox; background-color: rgb(193, 173, 209);border-radius: 1em ; padding: 20px;color: #f6f7f1;justify-content:right;margin: 30%;text-align: center;}
+      </style>
 </head>
 <body>
 
@@ -13,10 +30,14 @@
         <a href="entrees.html">Entrees</a>
         <a href="dessert.html">Dessert</a>
     </nav>
+    <div class="h1">
     <h1>Camelia Nash's Family Recipies</h1>
-    <img src="../images/headshot.jpg" alt="headshot" width="150" height="200"
-
-    <h2>
+    </div>
+   <div class="roundedimage">
+    <img src="../images/headshot.jpg" alt="headshot" width="150" height="200">
+   </div> 
+   <div>
+    <h2 class="h2">
         Welcome to my recipe website. This website serves to commemorate and share recipes and stories 
         from my time in the kitchen as a child and young adult. 
         For most of my life the kitchen was a popular gathering place in my home. For weeknight dinners 
@@ -26,6 +47,18 @@
         to learn how to make. As I got older, I learned to appreciate the way my mother and grandmother 
         prepared my favorite meals. More importantly I realized one day I would have to learn to make 
         them for myself, and my children.
+
     </h2>
+    </div>
+
+<div class="bottom">
+
+<a href="entrees.html">Entrees</a>
+    </div>
+    <div class="bottom2">
+
+<a href="dessert.html">Desserts</a>
+    </div>
+
 </body>
 </html>
