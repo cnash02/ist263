@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patricipation</title>
+</head>
+<body>
+    <script>
+        function rightAnswer () {
+            document.getElementById("right").innerHTML = "False is correct.";
+            function changeColor () {
+document.getElementById("right").style.color = document.getElementById("right").value;
+
+        }
+        function wrongAnswer () {
+            document.getElementById("wrong").innerHTML = "True is incorrect";
+        }
+    </script>
+</head>
+<body>
+    <p>#ID can only be used many times?</p>
+    <p id="wrong" onclick="changeColor();">True</p>
+    <p id="right" onclick="rightAnswer();">False</p>
+  
+</body>
+</html>
